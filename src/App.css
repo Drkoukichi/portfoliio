@@ -11,13 +11,19 @@ body{
 
 .bgpage{
   background-color: whitesmoke;
-  height: 100%;
-  width: 75%;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-top: 3rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  @media screen and (max-width:700px) { 
+    width: 100%;
+  }
+  
 }
 
 .flex{
@@ -54,6 +60,11 @@ body{
 
 
 .title{
+  padding-left:2rem;
+  @media screen and (max-width:700px) {
+    padding-left: 0rem;
+  }
+
   img{
     width: 5rem;
     height: 5rem;
