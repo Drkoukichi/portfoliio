@@ -34,9 +34,9 @@ function App() {
         <div className='body-right'>
           <div className = 'self_intro_title work p2 pl0'>Work</div>
           <ul className = 'self_intro_body ph1'>
-            <li>2023年9月 サイバーエージェント教育事業部　　アルバイト入社</li>
+            <li>2023年9月 サイバーエージェント教育事業部アルバイト入社</li>
             <p>小中高校生にxcodeを用いたiPhoneプログラミングを指導。他にもGoogleAppsScriptを用いた、社内ツールの開発、保守を行った。</p>
-            <li>2023年5月 メディアロビー（有隣堂株式会社）　アルバイト入社</li>
+            <li>2023年5月 メディアロビー（有隣堂株式会社）アルバイト入社</li>
             <p>パソコンのトラブルシュート、新入生のパソコンのキッティング作業を行う</p>
           </ul>
         </div>
