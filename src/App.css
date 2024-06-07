@@ -61,6 +61,7 @@ body{
 
 
 .title{
+  margin-top: 2rem;
   padding-left:2rem;
   @media screen and (max-width:700px) { 
     padding-left:0rem;
