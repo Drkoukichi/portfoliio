@@ -1,6 +1,7 @@
 //import { useState } from 'react'
 
 import koukichi_img from "./assets/NEWICON.png"
+import github from "./assets/github-mark.svg"
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <h1>Koukichi.net</h1>
           <p className='p'> Hi I'm Koshi Murata (村田 航志)</p>
         </div>
+        <a href="https://github.com/Drkoukichi"><img className='my_img' src={github}/></a>
       </div>
       <div className='b-1 flex'>
         <div className='body-left'>
