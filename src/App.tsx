@@ -10,12 +10,14 @@ function App() {
     <>
     <div className='bgpage'>
       <div className='title flex'>
-        <img className='my_img' src={koukichi_img}/>
+        <img className='title_img' src={koukichi_img}/>
         <div className='my_name' >
           <h1>Koukichi.net</h1>
           <p className='p'> Hi I'm Koshi Murata (村田 航志)</p>
         </div>
-        <a href="https://github.com/Drkoukichi"><img className='my_img' src={github}/></a>
+        <div className="title_img">
+          <a href="https://github.com/Drkoukichi"><img className='github_img' src={github}/></a>
+        </div>
       </div>
       <div className='b-1 flex'>
         <div className='body-left'>
