@@ -51,9 +51,9 @@ function App() {
               <li>GoogleAppsScript/Clasp</li>
               <li>python</li>
               <li>TypeScript</li>
+              <li>Network</li>
               <h2>Studying</h2>
               <li>React</li>
-              <li>Network</li>
               <li>Adobe Illustrator</li>
             </ul>
           </div>
