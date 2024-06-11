@@ -28,7 +28,10 @@ function App() {
               <li>本名: 村田 航志 </li>
               <li>所属: 東京工科大学 コンピュータサイエンス学部</li>
               <li>趣味: ネットワーク構築、サーバー保守、ダーツ</li>
-            </u>
+              <li>mail: <a href ="mailto:c0a2315029@edu.teu.ac.jp">c0a2315029@edu.teu.ac.jp</a></li>
+            </u>  
+              <p>pgp鍵は <a href = "https://keys.openpgp.org/search?q=c0a2315029@edu.teu.ac.jp">こちら</a>から</p>
+            
           </ul>
         </div>
         <div className='body-right'>
@@ -36,7 +39,7 @@ function App() {
           <ul className = 'self_intro_body ph1'>
             <li>2023年9月 サイバーエージェント教育事業部アルバイト入社</li>
             <p>小中高校生にxcodeを用いたiPhoneプログラミングを指導。他にもGoogleAppsScriptを用いた、社内ツールの開発、保守を行った。</p>
-            <li>2023年5月 メディアロビー（有隣堂株式会社）アルバイト入社</li>
+            <li>2023年5月 メディアロビー(有隣堂株式会社)アルバイト入社</li>
             <p>パソコンのトラブルシュート、新入生のパソコンのキッティング作業を行う</p>
           </ul>
         </div>
