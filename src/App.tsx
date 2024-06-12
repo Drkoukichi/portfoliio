@@ -28,7 +28,7 @@ function App() {
               <li>本名: 村田 航志 </li>
               <li>所属: 東京工科大学 コンピュータサイエンス学部</li>
               <li>趣味: ネットワーク構築、サーバー保守、ダーツ</li>
-              <li>mail: <a href ="mailto:c0a2315029@edu.teu.ac.jp">c0a2315029@edu.teu.ac.jp</a></li>
+              <li>mail: c0a2315029@edu.teu.ac.jp</li>
             </u>  
               <p>pgp鍵は <a href = "https://keys.openpgp.org/search?q=c0a2315029@edu.teu.ac.jp">こちら</a>から</p>
             
