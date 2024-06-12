@@ -12,6 +12,7 @@ function App() {
       <Routes> {/*Routesで囲む*/}
         <Route path="/" element={ <Top /> } /> {/*RouteにHomeを設定する*/}
         <Route path="/self-intro" element={ <Top /> } /> {/*RouteにHomeを設定する*/}
+        <Route path="/404" element={<Error />} /> {/*RouteにErrorを設定する*/}
         <Route path="/*" element={<Error />} /> {/*RouteにErrorを設定する*/}
       </Routes>
       </BrowserRouter>
