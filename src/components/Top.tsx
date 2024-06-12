@@ -76,7 +76,7 @@ function Top() {
             </div>
             <div className="volunteer">
               <div className="self_intro_title studynow p2 pl0">Study Now</div>
-              <div className="linkguide">制作物詳細は<Link to = "/create">こちら</Link></div>
+              <div className="linkguide">制作物詳細はこちら</div>
               <div className="work  pl0 ph1">
                 <ul className="self_intro_body">
                   <li>自宅でのサーバ構築並びに運用</li>
