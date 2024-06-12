@@ -50,6 +50,10 @@ body{
   margin: 0px;
 }
 
+.ph0{
+  padding-top: 0px;
+}
+
 .lang_icon{
   width: 10%;
   height: 10%;
@@ -161,9 +165,16 @@ body{
 
 
 .self_intro_title{
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin-top: 0px;
   margin-left: 2rem;
   margin-right: 2rem;
   padding-left: 0px;
+}
+
+.linkguide{
+  margin: 0px;
+  padding: 0px;
+  padding-left: 2rem;
+  font-size: 20px;
 }

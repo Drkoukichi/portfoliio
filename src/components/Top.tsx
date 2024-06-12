@@ -1,4 +1,5 @@
 //import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import koukichi_img from "./../assets/NEWICON.png"
 import github from "./../assets/github-mark.svg"
 
@@ -24,7 +25,7 @@ function Top() {
           <div className='body-left'>
             <div className = 'self_intro_title p2 pl0'>Profile</div>
             
-            <ul className='self_intro_body ph1'>
+            <ul className='self_intro_body ph0'>
               <u>
                 <li>本名: 村田 航志 </li>
                 <li>所属: 東京工科大学 コンピュータサイエンス学部</li>
@@ -37,7 +38,7 @@ function Top() {
           </div>
           <div className='body-right'>
             <div className = 'self_intro_title work p2 pl0'>Work</div>
-            <ul className = 'self_intro_body ph1'>
+            <ul className = 'self_intro_body ph0'>
               <li>2023年9月 サイバーエージェント教育事業部アルバイト入社</li>
               <p>小中高校生にxcodeを用いたiPhoneプログラミングを指導。他にもGoogleAppsScriptを用いた、社内ツールの開発、保守を行った。</p>
               <li>2023年5月 メディアロビー(有隣堂株式会社)アルバイト入社</li>
@@ -47,9 +48,9 @@ function Top() {
         </div>
         <div className="b-2 flex">
           <div className="body-left">
-            <div className="self_intro_title skil-set p2 pl0">SkillSet</div>
+            <div className="self_intro_title p2 pl0">SkillSet</div>
           
-            <div className="work pl0 ph1">
+            <div className="work pl0  ph0">
               <ul className="self_intro_body icons">
                 <h2>Main</h2>
                 <li>GoogleAppsScript/Clasp</li>
@@ -66,7 +67,7 @@ function Top() {
           <div className="body-right">
             <div className="volunteer">
               <div className="self_intro_title volunteer p2 pl0">Volunteer</div>
-              <div className="work  pl0 ph1">
+              <div className="work  pl0 ph0">
                 <ul className="self_intro_body">
                   <li>Pycon2024 運営スタッフ 2024年5月〜現在</li>
                   <p>当日の参加者用Wi-Fiや配信設備の設計を行なっている</p>
@@ -74,7 +75,8 @@ function Top() {
               </div>
             </div>
             <div className="volunteer">
-              <div className="self_intro_title volunteer p2 pl0">Study Now</div>
+              <div className="self_intro_title studynow p2 pl0">Study Now</div>
+              <div className="linkguide">制作物詳細は<Link to = "/create">こちら</Link></div>
               <div className="work  pl0 ph1">
                 <ul className="self_intro_body">
                   <li>自宅でのサーバ構築並びに運用</li>
