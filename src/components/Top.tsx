@@ -1,7 +1,8 @@
 //import { useState } from 'react'
 import koukichi_img from "./../assets/NEWICON.png"
 import github from "./../assets/github-mark.svg"
-import './App.css'
+
+import './css/Top.css'
 
 function Top() {
 
