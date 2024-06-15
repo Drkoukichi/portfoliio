@@ -3,30 +3,30 @@
 //import { Link } from 'react-router-dom'
 import koukichi_img from "./../assets/NEWICON.png"
 import github from "./../assets/github-mark.svg"
+import styles from "./css/Top.module.scss"
 
-import './css/Top.css'
 
 function Top() {
 
     return (
       <>
-      <div className='bgpage'>
-        <div className='title flex'>
-          <img className='title_img' src={koukichi_img}/>
-          <div className='my_name' >
+      <div className={styles.bgpage}>
+        <div className={`${styles.title} ${styles.flex}`}>
+          <img className={styles.titleimg} src={koukichi_img}/>
+          <div className={styles.myname} >
             <h1>Koukichi.net</h1>
             <p className='p'> Hi I'm Koshi Murata (村田 航志)</p>
   
           </div>
-          <div className="title_img">
+          <div className={styles.title_img}>
             <a href="https://github.com/Drkoukichi"><img className='github_img' src={github}/></a>
           </div>
         </div>
-        <div className='b-1 flex'>
-          <div className='body-left'>
-            <div className = 'self_intro_title p2 pl0'>Profile</div>
+        <div className={`${styles.flex}`}>
+          <div className={styles.bodyleft}>
+            <div className ={`${styles.selfintrotitle}${styles.p2}${styles.pl0}`} >Profile</div>
             
-            <ul className='self_intro_body ph0'>
+            <ul className={`${styles.selfintrobody}${styles.ph0}`}>
               <u>
                 <li>本名: 村田 航志 </li>
                 <li>所属: 東京工科大学 コンピュータサイエンス学部</li>
@@ -37,9 +37,9 @@ function Top() {
               
             </ul>
           </div>
-          <div className='body-right'>
-            <div className = 'self_intro_title work p2 pl0'>Work</div>
-            <ul className = 'self_intro_body ph0'>
+          <div className={styles.bodyright}>
+            <div className = {`${styles.selfintrotitle} ${styles.work}${styles.p2}${styles.pl0}`}>Work</div>
+            <ul className = {`${styles.selfintrobody} ${styles.ph0}`}>
               <li>2023年9月 サイバーエージェント教育事業部アルバイト入社</li>
               <p>小中高校生にxcodeを用いたiPhoneプログラミングを指導。他にもGoogleAppsScriptを用いた、社内ツールの開発、保守を行った。</p>
               <li>2023年5月 メディアロビー(有隣堂株式会社)アルバイト入社</li>
@@ -47,12 +47,12 @@ function Top() {
             </ul>
           </div>
         </div>
-        <div className="b-2 flex">
-          <div className="body-left">
-            <div className="self_intro_title p2 pl0">SkillSet</div>
+        <div className={`${styles.b2} ${styles.flex}`}>
+          <div className={styles.bodyleft}>
+            <div className={`${styles.selfintrotitle} ${styles.p2}${styles.pl0}`}>SkillSet</div>
           
-            <div className="work pl0  ph0">
-              <ul className="self_intro_body icons">
+            <div className={`${styles.work}${styles.pl0}${styles.ph0}`}>
+              <ul className={`${styles.self_intro_body}${styles.icons}`}>
                 <h2>Main</h2>
                 <li>GoogleAppsScript/Clasp</li>
                 <li>python</li>
@@ -65,20 +65,20 @@ function Top() {
             </div>
           </div>
   
-          <div className="body-right">
-            <div className="volunteer">
-              <div className="self_intro_title volunteer p2 pl0">Volunteer</div>
-              <div className="work  pl0 ph0">
-                <ul className="self_intro_body">
+          <div className={styles.bodyright}>
+            <div className={styles.volunteer}>
+              <div className={`${styles.selfintrotitle}${styles.volunteer}${styles.p2}${styles.pl0}`}>Volunteer</div>
+              <div className={`${styles.work}${styles.pl0}${styles.ph0}`}>
+                <ul className={styles.selfintrobody}>
                   <li>Pycon2024 運営スタッフ 2024年5月〜現在</li>
                   <p>当日の参加者用Wi-Fiや配信設備の設計を行なっている</p>
                 </ul>
               </div>
             </div>
-            <div className="volunteer">
-              <div className="self_intro_title studynow p2 pl0">Study Now</div>
-              <div className="work  pl0 ph1">
-                <ul className="self_intro_body">
+            <div className={styles.volunteer}>
+              <div className={`${styles.selfintrotitle}${styles.studynow}${styles.p2}${styles.pl0}`}>Study Now</div>
+              <div className={`${styles.work}${styles.pl0}${styles.ph1}`}>
+                <ul className={styles.selfintrobody}>
                   <li>自宅でのサーバ構築並びに運用</li>
                   <p>自宅にサーバを設置し、webサイトやNextCloudを運用</p>
                   <li>サークルでのAS運用（準備中）</li>
