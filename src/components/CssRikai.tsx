@@ -1,5 +1,3 @@
-import styles from "./css/cssRikai.modules.scss"
-
 function CssRikai(){
   return(
     <>
