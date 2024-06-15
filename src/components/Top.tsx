@@ -71,7 +71,7 @@ function Top() {
               <div className={`${styles.work}${styles.pl0}${styles.ph0}`}>
                 <ul className={styles.selfintrobody}>
                   <li>Pycon2024 運営スタッフ 2024年5月〜現在</li>
-                  <p>当日の参加者用Wi-Fiや配信設備の設計を行なっている</p>
+                  <p>当日の参加者用Wi-Fiや配信設備の設計を行なっている。</p>
                 </ul>
               </div>
             </div>

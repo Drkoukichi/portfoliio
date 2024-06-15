@@ -5,6 +5,7 @@ import Top from './components/Top.tsx'
 import Ca from './components/CaTech.tsx'
 import Create from './components/Create.tsx'
 import Error from './components/Error404.tsx';
+import CssRikai from "./components/CssRikai.tsx";
 
 
 
@@ -18,6 +19,7 @@ function App() {
 
         <Route path="/create" element={ <Create /> } /> {/*RouteにCreateを設定する*/}
         <Route path="/catech" element={ <Ca /> } /> {/*RouteにCaTechを設定する*/}
+        <Route path="/css" element={ <CssRikai /> } /> {/*RouteにCssRikaiを設定する*/}
         <Route path="/404" element={<Error />} /> {/*RouteにErrorを設定する*/}
         <Route path="/*" element={<Error />}/> {/*RouteにErrorを設定する*/}
       </Routes>
