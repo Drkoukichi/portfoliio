@@ -1,6 +1,6 @@
 //import { useState } from 'react'
 
-//import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import koukichi_img from "./../assets/NEWICON.png"
 import github from "./../assets/github-mark.svg"
 import styles from "./css/Top.module.scss"
@@ -11,7 +11,7 @@ function Top() {
     return (
       <>
       <div className={styles.bgpage}>
-        <div className={`${styles.title} ${styles.flex}`}>
+        <div className={`${styles.title}`}>
           <img className={styles.titleimg} src={koukichi_img}/>
           <div className={styles.myname} >
             <h1>Koukichi.net</h1>
@@ -24,7 +24,7 @@ function Top() {
         </div>
         <div className={`${styles.flex}`}>
           <div className={styles.bodyleft}>
-            <div className ={`${styles.selfintrotitle}${styles.p2}${styles.pl0}`} >Profile</div>
+          <div className = {`${styles.selfintrotitle}`}>Profile</div>
             
             <ul className={`${styles.selfintrobody}${styles.ph0}`}>
               <u>
@@ -38,7 +38,7 @@ function Top() {
             </ul>
           </div>
           <div className={styles.bodyright}>
-            <div className = {`${styles.selfintrotitle} ${styles.work}${styles.p2}${styles.pl0}`}>Work</div>
+            <div className = {`${styles.selfintrotitle} `}>Work</div>
             <ul className = {`${styles.selfintrobody} ${styles.ph0}`}>
               <li>2023年9月 サイバーエージェント教育事業部アルバイト入社</li>
               <p>小中高校生にxcodeを用いたiPhoneプログラミングを指導。他にもGoogleAppsScriptを用いた、社内ツールの開発、保守を行った。</p>
@@ -49,9 +49,9 @@ function Top() {
         </div>
         <div className={`${styles.b2} ${styles.flex}`}>
           <div className={styles.bodyleft}>
-            <div className={`${styles.selfintrotitle} ${styles.p2}${styles.pl0}`}>SkillSet</div>
+          <div className = {`${styles.selfintrotitle}`}>SkillSet</div>
           
-            <div className={`${styles.work}${styles.pl0}${styles.ph0}`}>
+            <div className={`${styles.pl0}${styles.ph0}`}>
               <ul className={`${styles.self_intro_body}${styles.icons}`}>
                 <h2>Main</h2>
                 <li>GoogleAppsScript/Clasp</li>
@@ -60,6 +60,7 @@ function Top() {
                 <li>Network</li>
                 <h2>Studying</h2>
                 <li>React</li>
+                <Link to ="/css" ><li>CSS</li></Link>
                 <li>Adobe Illustrator</li>
               </ul>
             </div>
@@ -67,8 +68,9 @@ function Top() {
   
           <div className={styles.bodyright}>
             <div className={styles.volunteer}>
-              <div className={`${styles.selfintrotitle}${styles.volunteer}${styles.p2}${styles.pl0}`}>Volunteer</div>
-              <div className={`${styles.work}${styles.pl0}${styles.ph0}`}>
+            <div className = {`${styles.selfintrotitle}`}>Volunteer</div>
+              <div className={`
+                ${styles.pl0}${styles.ph0}`}>
                 <ul className={styles.selfintrobody}>
                   <li>Pycon2024 運営スタッフ 2024年5月〜現在</li>
                   <p>当日の参加者用Wi-Fiや配信設備の設計を行なっている。</p>
@@ -76,8 +78,8 @@ function Top() {
               </div>
             </div>
             <div className={styles.volunteer}>
-              <div className={`${styles.selfintrotitle}${styles.studynow}${styles.p2}${styles.pl0}`}>Study Now</div>
-              <div className={`${styles.work}${styles.pl0}${styles.ph1}`}>
+            <div className = {`${styles.selfintrotitle} `}>Study Now</div>
+              <div className={`${styles.pl0}${styles.ph1}`}>
                 <ul className={styles.selfintrobody}>
                   <li>自宅でのサーバ構築並びに運用</li>
                   <p>自宅にサーバを設置し、webサイトやNextCloudを運用</p>

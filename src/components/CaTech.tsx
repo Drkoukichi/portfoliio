@@ -1,8 +1,10 @@
+import styles from "./css/caTech.module.scss"
+
 function CaTech(){
     return (
         <>
-        <div className='bgpage'>
-            <div className='title flex'>
+        <div className={styles.bgpage}>
+            <div className={styles.title}>
                 <h1>Catech</h1>
             </div>
         </div>

@@ -34,10 +34,6 @@ body{
   }
 
 }
-
-.p2{
-  padding: 2rem;
-}
 .pl0{
   padding-bottom: 0px;
 }
@@ -64,6 +60,7 @@ body{
 
 
 .title{
+  display:  flex;
   margin-top: 2rem;
   padding-left:0rem;
   @media screen and (max-width:700px) { 
@@ -73,6 +70,7 @@ body{
     width: 25%;
     height: 25%;
   }
+
 }
 
 .titleimg{
@@ -170,6 +168,9 @@ body{
   margin-left: 2rem;
   margin-right: 2rem;
   padding-left: 0px;
+  padding: 0rem;
+  padding-bottom: 0px;
+
 }
 
 .linkguide{
