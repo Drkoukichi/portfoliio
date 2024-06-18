@@ -10,6 +10,7 @@ function Top() {
 
     return (
       <>
+      <div className ={styles.body}>
       <div className={styles.bgpage}>
         <div className={`${styles.title}`}>
           <img className={styles.titleimg} src={koukichi_img}/>
@@ -91,6 +92,7 @@ function Top() {
             </div>
           </div>
         </div>
+      </div>
       </div>
       </>
     )
