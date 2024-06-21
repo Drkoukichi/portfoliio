@@ -13,14 +13,14 @@ function Top() {
       <div className ={styles.body}>
       <div className={styles.bgpage}>
         <div className={`${styles.title}`}>
-          <img className={styles.titleimg} src={koukichi_img}/>
+          <img className={styles.titleimg} alt = "koukichi's Icon" src={koukichi_img}/>
           <div className={styles.myname} >
             <h1>Koukichi.net</h1>
             <p className='p'> Hi I'm Koshi Murata (村田 航志)</p>
   
           </div>
           <div className={styles.title_img}>
-            <a href="https://github.com/Drkoukichi"><img className='github_img' src={github}/></a>
+            <a href="https://github.com/Drkoukichi"><img className='github_img' alt = "Github Icon" src={github}/></a>
           </div>
         </div>
         <div className={`${styles.flex}`}>
