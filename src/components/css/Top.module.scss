@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
 
+
 .body{
-  margin: 0px;
-  padding: 0px;
-  background-color: #ffffe0;
+
+  margin: 0;
+  padding: 0;
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -16,10 +17,7 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   @media screen and (max-width:700px) { 
@@ -37,7 +35,7 @@
 
 }
 .pl0{
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .ph1{
@@ -45,11 +43,11 @@
 }
 
 .m0{
-  margin: 0px;
+  margin: 0;
 }
 
 .ph0{
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .langicon{
@@ -64,9 +62,9 @@
 .title{
   display:  flex;
   margin-top: 2rem;
-  padding-left:0rem;
+  padding-left:0;
   @media screen and (max-width:700px) { 
-    padding-left:0rem;
+    padding-left:0;
   }
   .snsLinks{
     width: 25%;
@@ -87,7 +85,7 @@
 }
 
 .snsLinks{
-  display:frex;
+  display:flex;
   flex-direction: row;
 }
 
@@ -112,7 +110,7 @@
   font-size: 1.25rem;
   
   p{
-    margin: 0px;
+    margin: 0;
     @media screen and (max-width:700px) { 
       font-size: 1rem;
       
@@ -124,7 +122,7 @@
       font-size: 2rem;
       
     }
-    margin:0px;
+    margin:0;
   }
 }
 
@@ -145,40 +143,37 @@
 
 
 .selfintrobody{
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 2rem;
   margin-right: 1rem;
   font-size: 14px;
-  padding-left: 0px;
+  padding-left: 0;
   li{
     font-size :1.5rem
   }
   p{
-    margin-top: 0px;
+    margin-top: 0;
     font-size :16px
   }
   h2{
     margin-top: 1rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
   }
 }
 
 
 .selfintrotitle{
   font-size: 2.5rem;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 2rem;
   margin-right: 2rem;
-  padding-left: 0px;
-  padding: 0rem;
-  padding-bottom: 0px;
+  padding: 0;
 
 }
 
 .linkguide{
-  margin: 0px;
-  padding: 0px;
-  padding-left: 2rem;
+  margin: 0;
+  padding: 0 0 0 2rem;
   font-size: 20px;
 }
 
