@@ -7,8 +7,7 @@ import styles from "./css/Top.module.scss"
 
 
 function Top() {
-
-    return (
+  return (
       <>
       <div className ={styles.body}>
       <div className={styles.bgpage}>
@@ -95,7 +94,7 @@ function Top() {
       </div>
       </div>
       </>
-    )
-  }
+  )
+}
   
   export default Top
