@@ -65,6 +65,12 @@
   padding-left: 0rem;
   @media screen and (max-width: 700px) {
     padding-left: 0rem;
+    flex-direction: column;
+    img{
+      margin-left: 2rem;
+      width: 20%;
+      height: 20%;
+    }
 
   }
   .snsLinks {
@@ -85,8 +91,6 @@
 
 
 .snsLinks {
-  display: frex;
-
   flex-direction: row;
 }
 
