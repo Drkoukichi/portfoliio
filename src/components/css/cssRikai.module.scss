@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 
-
-.body{
-  width: 100vw;
+body {
+  background-color: #ffffff;
   height: 100vh;
-  background-color:#ffffff;
-
+  width: 100vw;
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -21,23 +19,12 @@
   padding: 5px 10px;
   cursor: pointer;
   font-size: 16px;
-
   margin-left: 10%;
   color: black;
-
 }
 
-.backUp{
-  display: flex;
-  padding-top:2rem;
-
-  justify-content: center;
-}
-.backDown{
-  display: flex;
-  padding-top:2rem;
-  justify-content: center;
-
+.back {
+  margin-left: 2rem;
 }
 
 .box {
@@ -50,9 +37,7 @@
   .box__text {
     white-space: nowrap;
     margin-left: 50px;
-
     margin-top: 1rem;
-
   }
 }
 
