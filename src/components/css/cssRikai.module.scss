@@ -2,6 +2,8 @@
 
 body {
   background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -17,7 +19,8 @@ body {
   padding: 5px 10px;
   cursor: pointer;
   font-size: 16px;
-  margin-left: 10px;
+  margin-left: 10%;
+  color: black;
 }
 
 .back {
@@ -29,12 +32,13 @@ body {
   position: relative;
   border: 1px solid #000;
   border-radius: 5px;
-  width: 140px;
-  height: 62px;
+  width: 8rem;
+  height: 5rem;
   .box__text {
     white-space: nowrap;
     margin-left: 50px;
     margin-top: 0;
+    margin-top: 1rem;
   }
 }
 
@@ -44,8 +48,8 @@ body {
   position: relative;
   border: 1px solid #000;
   border-radius: 5px;
-  width: 140px;
-  height: 62px;
+  width: 8rem;
+  height: 5rem;
   .box__text {
     display: flex;
     justify-content: center;
