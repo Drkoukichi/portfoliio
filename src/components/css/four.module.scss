@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 
-
-body{
+body {
   background-color: #ffffe0;
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
@@ -9,15 +8,14 @@ body{
   color: black;
 }
 
-
-.bg404{
+.bg404 {
   display: grid;
   place-content: center;
   place-items: center;
-  img{
+  img {
     width: 1000px;
     height: auto;
-    @media screen and (max-width:700px) { 
+    @media screen and (max-width: 700px) {
       width: 500px;
       height: auto;
     }

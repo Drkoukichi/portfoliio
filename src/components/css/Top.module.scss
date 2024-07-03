@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 
-
-.body{
+.body {
   margin: 0px;
   padding: 0px;
   background-color: #ffffe0;
@@ -11,7 +10,7 @@
   color: black;
 }
 
-.bgpage{
+.bgpage {
   background-color: whitesmoke;
   width: 90%;
   margin-left: auto;
@@ -22,149 +21,136 @@
   padding-right: 1rem;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  @media screen and (max-width:700px) { 
+  @media screen and (max-width: 700px) {
     width: 100%;
   }
-  
 }
 
-.flex{
+.flex {
   display: flex;
 
-  @media screen and (max-width:700px) { 
+  @media screen and (max-width: 700px) {
     flex-direction: column;
   }
-
 }
-.pl0{
+.pl0 {
   padding-bottom: 0px;
 }
 
-.ph1{
+.ph1 {
   padding-top: 1rem;
 }
 
-.m0{
+.m0 {
   margin: 0px;
 }
 
-.ph0{
+.ph0 {
   padding-top: 0px;
 }
 
-.langicon{
+.langicon {
   width: 10%;
   height: 10%;
   min-width: 60px;
   min-height: 60px;
-
 }
 
-
-.title{
-  display:  flex;
+.title {
+  display: flex;
   margin-top: 2rem;
-  padding-left:0rem;
-  @media screen and (max-width:700px) { 
-    padding-left:0rem;
+  padding-left: 0rem;
+  @media screen and (max-width: 700px) {
+    padding-left: 0rem;
   }
-  .snsLinks{
+  .snsLinks {
     width: 25%;
     height: 25%;
   }
-
 }
 
-.titleimg{
-  width: 5rem;
-    height: 5rem;
-    min-width: 60px;
-    min-height: 60px;
-    @media screen and (max-width:700px) { 
-      margin-left: 2rem;
-    }
-    
-}
-
-.snsLinks{
-  display:frex;
-  flex-direction: row;
-}
-
-.githubimg{
+.titleimg {
   width: 5rem;
   height: 5rem;
   min-width: 60px;
   min-height: 60px;
-  @media screen and (max-width:700px) { 
-    margin-top :1rem;
+  @media screen and (max-width: 700px) {
+    margin-left: 2rem;
+  }
+}
+
+.snsLinks {
+  display: frex;
+  flex-direction: row;
+}
+
+.githubimg {
+  width: 5rem;
+  height: 5rem;
+  min-width: 60px;
+  min-height: 60px;
+  @media screen and (max-width: 700px) {
+    margin-top: 1rem;
     width: 3rem;
     height: 3rem;
   }
 }
 
-
-
-.myname{
+.myname {
   height: 10%;
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 1.25rem;
-  
-  p{
+
+  p {
     margin: 0px;
-    @media screen and (max-width:700px) { 
+    @media screen and (max-width: 700px) {
       font-size: 1rem;
-      
     }
   }
-  h1{
+  h1 {
     font-size: 3rem;
-    @media screen and (max-width:700px) { 
+    @media screen and (max-width: 700px) {
       font-size: 2rem;
-      
     }
-    margin:0px;
+    margin: 0px;
   }
 }
 
-.bodyleft{
+.bodyleft {
   width: 45%;
-  @media screen and (max-width:700px) { 
-    width: 100%;
-  }
-
-}
-
-.bodyright{
-  width:55%;
-  @media screen and (max-width:700px) { 
+  @media screen and (max-width: 700px) {
     width: 100%;
   }
 }
 
+.bodyright {
+  width: 55%;
+  @media screen and (max-width: 700px) {
+    width: 100%;
+  }
+}
 
-.selfintrobody{
+.selfintrobody {
   margin-top: 0px;
   margin-left: 2rem;
   margin-right: 1rem;
   font-size: 14px;
   padding-left: 0px;
-  li{
-    font-size :1.5rem
+  li {
+    font-size: 1.5rem;
   }
-  p{
+  p {
     margin-top: 0px;
-    font-size :16px
+    font-size: 16px;
   }
-  h2{
+  h2 {
     margin-top: 1rem;
     margin-bottom: 0rem;
   }
 }
 
-
-.selfintrotitle{
+.selfintrotitle {
   font-size: 2.5rem;
   margin-top: 0px;
   margin-left: 2rem;
@@ -172,24 +158,23 @@
   padding-left: 0px;
   padding: 0rem;
   padding-bottom: 0px;
-
 }
 
-.linkguide{
+.linkguide {
   margin: 0px;
   padding: 0px;
   padding-left: 2rem;
   font-size: 20px;
 }
 
-.bg404{
+.bg404 {
   display: grid;
   place-content: center;
   place-items: center;
-  img{
+  img {
     width: 1000px;
     height: auto;
-    @media screen and (max-width:700px) { 
+    @media screen and (max-width: 700px) {
       width: 500px;
       height: auto;
     }
