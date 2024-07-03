@@ -24,6 +24,7 @@ function CssRikai() {
           <button className={styles.button}>戻る</button>
         </Link>
       </div>
+
     </>
   );
 }
