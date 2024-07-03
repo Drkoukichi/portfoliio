@@ -9,7 +9,7 @@ function CssRikai() {
           <p className={styles.box__text}>
             CSS
             <br />
-            完全に理解した
+            完全に理解したかな？
           </p>
         </div>
 
@@ -17,7 +17,7 @@ function CssRikai() {
           <p className={styles.box__text}>
             CSS
             <br />
-            理解していない
+            理解していないよね？
           </p>
         </div>
         <Link to="/">
