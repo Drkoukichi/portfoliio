@@ -18,7 +18,7 @@ function Top() {
             />
             <div className={styles.myname}>
               <h1>Koukichi.net</h1>
-              <p className="p"> Hi I'm Koshi Murata (村田 航志)</p>
+
             </div>
             <div className={styles.title_img}>
               <a href="https://github.com/Drkoukichi">
