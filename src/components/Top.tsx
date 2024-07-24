@@ -73,6 +73,7 @@ function Top() {
                   <li>Network</li>
                   <h2>Studying</h2>
                   <li>React</li>
+                  <li>Swift</li>
                   <Link to="/css">
                     <li>CSS</li>
                   </Link>
