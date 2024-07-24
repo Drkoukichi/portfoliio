@@ -100,7 +100,7 @@ function Top() {
                 <div className={`${styles.pl0}${styles.ph1}`}>
                   <ul className={styles.selfintrobody}>
                     <li>自宅でのサーバ構築並びに運用</li>
-                    <p>自宅にサーバを設置し、webサイトやNextCloudを運用</p>
+                    <p>自宅にサーバを設置し、このwebサイトやNextCloudを運用</p>
                     <li>サークルでのAS運用（準備中）</li>
                     <p>AS番号とIPアドレスを取得しネットワークを広告する。</p>
                     <p>現在JPNICとAS取得の交渉中</p>
